@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>NieZdroFit</title>
+</head>
+<body>
+    <header>
+        <div id="leftangle">
+            <img id="logo" src="data/logo_without_background.png" alt="companylogo">
+            <button id="chooseClub">Wybierz klub</button>
+        </div>
+        
+        <div id="centerButtons">
+            <button id="exercises">Zajęcia</button>
+            <label for="offer" class="selectlabel">Oferta</label>
+            <select id="offer">
+                <option value="membercard">Karnety</option>
+                <option value="companymembercard">Karnety dla firm</option>
+                <option value="commercial">Reklama w klubach</option>
+            </select>
+            <button id="blog">Blog</button>
+            <button id="contact">Kontakt</button>
+            <button id="schedule">Grafik</button>
+        </div>
+        <div id="rightangle">
+            <button id="buypass">Kup karnet</button>
+            <button id="loguj">Zaloguj się</button>
+        </div>
+    </header>
+    <main>
+        <div id="promotion-container">
+            <div id="text-container">
+                <h3>Promocja</h3>
+                <h1>Ćwicz za 1zł do końca roku!</h1>
+                <ul>
+                    <li>Do Twojego karnetu dodajemy 7-dniowy karnet dla znajomego</li>
+                    <li>Ponad 100 lokalizacji w całej Polsce</li>
+                    <li>120+ formatów zajęć grupowych</li>
+                    <li>Nowoczesne strefy treningowe</li>
+                    <li>Plany treningowe w aplikacji</li>
+                    <li>Spotkanie wprowadzające</li>
+                    <li>Intro z trenerem</li>
+                    <li>Aplikacja mobilna</li>
+                    <button id="buy-card-button">Kup karnet</button>
+                </ul>
+            </div>
+            <img src="data/promotion_picture1.jpg" alt="promotion_picture" id="promotion-picture">
+        </div>
+        <p id="motto">Tworzymy dla Ciebie coraz więcej możliwości. 
+            Więc<br> już nic nie musisz. 
+            Odtąd wybieraj tylko to, co<br> lubisz!</p>
+        <div id="proposal-container">
+            <div class="proposal">
+                <img src="data/1_proposal.jpg" alt="picture" class="prop-picture">
+                <p>Wprowadzimy Cię w świat fitnessu i siłowni</p>
+                <button class="get-more-info" id="get-more-info-1">Dowiedź się więcej</button>
+            </div>
+            <div class="proposal">
+                <img src="data/2_proposal.jpg" alt="picture" class="prop-picture">
+                <p>Damy Ci wybór 120+ rodzajów zajęć</p>
+                <button class="get-more-info" id="get-more-info-1">Dowiedź się więcej</button>
+            </div>
+            <div class="proposal">
+                <img src="data/3_proposal.jpg" alt="picture" class="prop-picture">
+                <p>Rozpiszemy Ci profesjonalny plan treningowy</p>
+                <button class="get-more-info" id="get-more-info-1">Dowiedź się więcej</button>
+            </div>
+            <div class="proposal" id="last-proposal">
+                <img src="data/4_proposal.jpg" alt="picture" class="prop-picture">
+                <p>I dodamy aplikację do planowania aktywności</p>
+                <button class="get-more-info" id="get-more-info-1">Dowiedź się więcej</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
