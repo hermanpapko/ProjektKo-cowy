@@ -15,12 +15,14 @@
         
         <div id="centerButtons">
             <button id="exercises">Zajęcia</button>
-            <label for="offer" class="selectlabel">Oferta</label>
-            <select id="offer">
-                <option value="membercard">Karnety</option>
-                <option value="companymembercard">Karnety dla firm</option>
-                <option value="commercial">Reklama w klubach</option>
-            </select>
+            <div class="dropdown">
+                <button class="dropbtn">Oferta</button>
+                <div class="dropdown-content">
+                        <button value="membercard">Karnety
+                        <button value="companymembercard">Karnety dla firm</option>
+                        <button value="commercial">Reklama w klubach</option>
+                </div>
+              </div>
             <button id="blog">Blog</button>
             <button id="contact">Kontakt</button>
             <button id="schedule">Grafik</button>
