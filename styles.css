@@ -10,7 +10,7 @@ header {
     padding: 10px;
 }
 
-header button {
+button {
     background-color: rgb(225, 225, 225);
     padding: 10px;
     border-radius: 10px;
@@ -63,7 +63,7 @@ li {
     margin-top: 10px;
 }
 
-#motto {
+#motto1 {
     font-size: larger;
     font-weight: bold;
     text-align: center;
