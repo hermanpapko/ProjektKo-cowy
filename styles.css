@@ -134,3 +134,30 @@ li {
   .dropdown-content a:hover {background-color: #ddd;}
   
   .dropdown:hover .dropdown-content {display: flex;}
+
+  footer  {
+    background-color:  #0000b3;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .footer-header {
+    color: orange;
+  }
+
+  .footer-links {
+   color: white;
+  }
+
+  .social-media-link-img {
+    width: 50px;
+    float: right;
+  }
+  
+  #social-media-link-img {
+    padding: 2vh;
+  }
+
+
+
+
